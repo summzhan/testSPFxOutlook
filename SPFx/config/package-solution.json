@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "test-sp-fx-outlook-client-side-solution",
+    "id": "97b51baa-c78b-4c07-a8de-a74a98628109",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.15.0"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "testSPFxOutlook description"
+      },
+      "longDescription": {
+        "default": "testSPFxOutlook description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "test-sp-fx-outlook Feature",
+        "description": "The feature that activates elements of the test-sp-fx-outlook solution.",
+        "id": "f70dad47-fd06-463b-beba-926a18fa4d84",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/test-sp-fx-outlook.sppkg"
+  }
+}

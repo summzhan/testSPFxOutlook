@@ -1,0 +1,19 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "whichFolder": "subdir",
+    "solutionName": "testSPFxOutlook",
+    "environment": "spo",
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "componentType": "webpart",
+    "template": "none",
+    "componentName": "helloworld",
+    "plusBeta": false,
+    "isCreatingSolution": true,
+    "version": "1.15.0",
+    "libraryName": "test-sp-fx-outlook",
+    "libraryId": "97b51baa-c78b-4c07-a8de-a74a98628109",
+    "packageManager": "npm",
+    "solutionShortDescription": "testSPFxOutlook description"
+  }
+}
